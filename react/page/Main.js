@@ -1,8 +1,8 @@
 import React from 'react';
 import {StackNavigator} from 'react-navigation';
-import HomeScreen from './login.js';
-import ChatScreen from './forget_psw.js';
-import {View, Image, TouchableOpacity} from 'react-native';
+import HomeScreen from './Login';
+import ChatScreen from './ForgetPsw';
+import {Image, TouchableOpacity} from 'react-native';
 export default SimpleApp = StackNavigator({
     Home: {screen: HomeScreen,},
     Psw: {screen: ChatScreen},
@@ -27,7 +27,7 @@ export default SimpleApp = StackNavigator({
                                     paddingLeft: 15,
                                     paddingRight: 15,
                                 }}>
-                <Image source={require('./image/icon_back.png')} style={{width: 11, height: 20}}/>
+                <Image source={require('../image/icon_back.png')} style={{width: 11, height: 20}}/>
             </TouchableOpacity>
         )
     }),

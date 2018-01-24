@@ -20,7 +20,15 @@ import {
         padding: 10,
         marginRight:40
     },
-    input: {
+     edit: {
+         backgroundColor: '#fff',
+         alignItems: 'stretch',
+         height: 45,
+         paddingLeft: 5,
+         paddingRight: 5,
+         borderRadius: 4,
+     },
+    edit_margin: {
         backgroundColor: '#f2f2f2',
         alignItems: 'stretch',
         height: 45,
@@ -30,12 +38,12 @@ import {
         paddingRight: 5,
         borderRadius: 4,
     },
-     input_border: {
+     edit_border: {
          backgroundColor: '#fff',
          borderColor:"#1fb8ff",
          borderWidth:0.7
      },
-     input_border_wrap: {
-         height: 91,
+     edit_border_wrap: {
+         height: 92,
      },
 });
